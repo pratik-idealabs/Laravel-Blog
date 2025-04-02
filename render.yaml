@@ -1,7 +1,7 @@
 services:
   - type: web
     name: laravel-blog
-    env: php
+    runtime: php
     buildCommand: |
       composer install --no-dev --optimize-autoloader
       php artisan config:cache
