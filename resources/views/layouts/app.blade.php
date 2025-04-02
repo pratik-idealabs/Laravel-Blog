@@ -12,7 +12,7 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- CSS (No Vite) -->
-    <link rel="stylesheet" href="{{ asset('assets/app-ab12cd34.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
 
     <style>
         body { font-family: 'Figtree', sans-serif; }
